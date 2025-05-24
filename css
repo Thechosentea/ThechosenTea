@@ -1,0 +1,59 @@
+/* The Chosen Tea Style Sheet - Gold, Black, and Green Theme */
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf0;
+  color: #333;
+}
+
+header {
+  background-color: black;
+  color: gold;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-height: 80px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+  background-color: #013220;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #2f4f2f;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: gold;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
